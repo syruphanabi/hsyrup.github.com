@@ -1,0 +1,83 @@
+body {
+	background-color: MistyRose;
+  	font: 12px sans-serif;
+
+	.label {
+			font-weight: bold;
+	}
+
+	.tile {
+			shape-rendering: crispEdges;
+	}
+
+	.axis path
+
+  .axis line {
+      fill: none;
+      stroke: black;
+      shape-rendering: crispEdges;
+  }
+  .axis text {
+      font-family: sans-serif;
+      font-size: 10px;
+  }
+
+}
+
+
+
+h1 {
+  color: navy;
+
+}
+
+li {
+  color: navy;
+}
+
+img {
+	border-style: solid;
+	border-color: MistyRose;
+	border-width: 15px;
+}
+
+h4 {
+	border-style: solid;
+	border-color: MistyRose;
+	border-width: 5px;
+	font: 12px sans-serif;
+}
+
+.nav{
+    height: 30px;
+    margin: auto;
+}
+
+
+.nav li{
+    padding:0 25px 0 100px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/*a标签不能继承父标签的颜色，所以需要单独设置a标签中的字体颜色*/
+.nav li a{
+		text-align: right;
+		background-color: MistyRose;
+		color: DimGray;
+}
+/*当鼠标移动到li标签时，背景颜色变成#0266A3*/
+.nav li:hover{
+	font-size: 22px;
+}
+/*当鼠标移动到li标签时，a标签中的字体颜色变成#0266A3*/
+.nav li:hover a{
+		background-color: MistyRose;
+    color: black;
+}
+
+.nav li.focus1 a{
+	/*background-color: PaleVioletRed;*/
+	color: PaleVioletRed;
+	font-size: 22px;
+}
