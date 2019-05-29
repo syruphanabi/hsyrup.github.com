@@ -82,6 +82,7 @@ h4 {
 	font-size: 22px;
 }
 
-.nav li.hidden a{
+.nav li.invis a{
+	/*color: PaleVioletRed;*/
 	color: MistyRose;
 }
