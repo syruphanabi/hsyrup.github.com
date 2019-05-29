@@ -48,6 +48,25 @@ h4 {
 	font: 12px sans-serif;
 }
 
+h2 {
+	border-style: solid;
+	border-color: MistyRose;
+	border-width: 40px;
+	font: 24px Arial;
+}
+
+h2.PaleVioletRed{
+	color: PaleVioletRed;
+}
+
+h1.home {
+	border-style: solid;
+	border-color: MistyRose;
+	border-width: 50px;
+	color: PaleVioletRed;
+}
+
+
 .nav{
     height: 30px;
     margin: auto;
@@ -84,5 +103,6 @@ h4 {
 
 .nav li.invis a{
 	/*color: PaleVioletRed;*/
+	background-color: MistyRose;
 	color: MistyRose;
 }
