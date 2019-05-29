@@ -1,64 +1,84 @@
 <!DOCTYPE html>
-<head>
-	<meta charset="utf-8">
-	<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
-	<!-- <meta http-equiv="refresh" content="5"> -->
-	<title></title>
-	<!-- <base href="http://www.runoob.com/images/" target="_blank"> -->
-	<link rel="stylesheet" type="text/css" href="mystyle.css">
-	<style type="text/css">
-		body {background-color:yellow}
-		p {color:blue}
-	</style>
-</head>
-
 <html>
+	<head>
+		<title>Wenjie's portfolio</title>
+
+		<!-- <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet"> -->
+		<link href="lib/bootstrap-3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+		<script src="lib/jquery.js"></script>
+		<script src="lib/bootstrap-3/js/bootstrap.min.js"></script>
+  	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script> -->
+
+		<meta charset="utf-8">
+		<style type="text/css">
+
+		</style>
+	</head>
+
 	<body>
 
-	<iframe width="400" height="315" src="https://www.youtube.com/embed/D7MdpduGbeY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<script src="myjs.js"></script>
 
-	<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=44291392&cid=77556083&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+		<div class="container-fluid">
+			<div class="row">
+		    <div class="col-sm-3">
+					<div class="row">
+				    <div class="col-sm-5">
+							<img height="155" weight="155" src="asset/face.jpg" class="img-circle">
+						</div>
+						<div class="col-sm-7">
+							<h3>Hanabi Syrup</h3>
+							<h4>wating for EAD ... Orz</p>
+						</div>
+					</div>
 
-	<iframe width="560" height="315" src="asset/annica.mp4"> </iframe>
-	
-	<a href="barrel.html">Graphics works</a>
+					<ul class="nav nav-pills nav-stacked">
+					<li class="focus1"><a href="#">Home</a></li>
+					<li><a href="index.html">Geometry</a></li>
+					<li><a href="#">Graphic</a></li>
+					<li><a href="#">Game</a></li>
+					<li><a href="#">Contact</a></li>
 
-	<h1>My First Heading</h1>
-	<p>My first <br>paragraph.</p>
-	<a href="https://www.w3schools.com">This is a link</a>
-	<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
-	<button>Click me</button>
-	<hr>
-	<!-- 这是一个注释 -->
-	<ul>
-  		<li>Coffee</li>
-  		<li>Tea</li>
-  		<li>Milk</li>
-	</ul>
-	<ol>
-  		<li>Coffee</li>
-  		<li>Tea</li>
-  		<li>Milk</li>
-	</ol>
-	<p title="John 'ShotGun' Nelson"> 1234 </p>
-	<b> bone </b>
-	<em> importance</em>
-	<i> italic</i>
-	<small>111</small> <strong> 222</strong><sup>333</sup> <ins>444</ins> <del>555</del><br>
-	<code> for i in range(k):</code>
-	<kbd> apple and banana</kbd>
-	<a href="http://www.runoob.com/" target="_blank">访问菜鸟教程!</a>
-	<p style="color:blue;margin-left:20px;">This is a paragraph.</p>
-	<form>
-		First name: <input type="text" name="firstname"><br>
-		Last name: <input type="text" name="lastname">
-	</form>
-	<!--
-	<a id="tips">有用的提示部分</a>
-	<a href="http://www.runoob.com/html/html-links.html#tips">访问有用的提示部分</a>
-	-->
+				</div>
+				<div class="col-sm-9">
+					<div class="jumbotron text-center">
+						<h1>My First Bootstrap Page</h1>
+						<p>Resize this responsive page to see the effect!</p>
+						<!-- <iframe width="560" height="315" src="asset/annica.mp4"> </iframe> -->
+						<iframe width="560" height="315" src="https://player.bilibili.com/player.html?aid=53617551&cid=93794168&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+					</div>
 
-	<!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/D7MdpduGbeY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-4">
+								<h3>Column 1</h3>
+								<p>Lorem ipsum dolor..</p>
+							</div>
+							<div class="col-sm-4">
+								<h3>Column 2</h3>
+								<p>Lorem ipsum dolor..</p>
+							</div>
+							<div class="col-sm-4">
+								<h3>Column 3</h3>
+								<p>Lorem ipsum dolor..</p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Control the column width, and how they should appear on different devices -->
+					<div class="row">
+						<div class="col-sm-4" style="background-color:yellow;">33.33%</div>
+							<div class="col-sm-4" style="background-color:orange;">33.33%</div>
+							<div class="col-sm-4" style="background-color:yellow;">33.33%</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
 
 	</body>
 </html>
